@@ -24,19 +24,19 @@ a:hover {
   font-weight: bold;
 }
 .conteiner {
-  width: 1000px;
+  width: 800px;
   border: 1px solid #ece4e4;
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
   padding: 10px 0;
 }
-.name,
-.summary {
-  flex-basis: 465px;
+.name{
+  flex-basis: 250px;
 }
 .summary {
   padding-top: 44px;
+  flex-basis: 430px;
 }
 .bord {
   border: 1px solid #ece4e4;

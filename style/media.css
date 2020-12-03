@@ -1,18 +1,13 @@
-@media all and (max-width:1020px){
-  .conteiner {
-    width: 800px;
-  }
-  .name, .summary {
-    flex-basis: 340px;
-  }  
-}
 @media all and (max-width:820px){
   .conteiner {
     width: 600px;
   }
-  .name, .summary {
-    flex-basis: 250px;
-  } 
+  .name{
+    flex-basis: 190px;
+  }
+  .summary {
+    flex-basis: 320px;
+  }
 }  
 @media all and (max-width:620px){
   .conteiner {
