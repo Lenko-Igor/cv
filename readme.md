@@ -1,3 +1,3 @@
-# sammary
+# summary
 
-My sammarygit 
+My summarygit 
