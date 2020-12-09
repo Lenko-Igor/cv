@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Open Sans Condensed", sans-serif;
 }
+body {
+  background-color:#808080a3;
+}
 h3 {
   margin: 15px 0;
   background-color: #cac6c62e;
@@ -30,6 +33,7 @@ a:hover {
   justify-content: space-around;
   margin: 0 auto;
   padding: 10px 0;
+  background-color: white;
 }
 .name{
   flex-basis: 250px;

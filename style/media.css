@@ -1,3 +1,20 @@
+@media print{
+  body{
+    background-color: "none";
+  }
+  a[href^=http]:after {
+    content:" <" attr(href) ">";
+  }
+  .conteiner{
+    border: none;
+  }  
+  .name{
+    margin-right: 25px;
+  }
+  .summary{
+    margin-left: 25px;
+  }
+}
 @media all and (max-width:820px){
   .conteiner {
     width: 600px;
