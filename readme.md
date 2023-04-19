@@ -1,3 +1,3 @@
 # CV
 
-https://cv.github.io
+https://cv-lenko.github.io
