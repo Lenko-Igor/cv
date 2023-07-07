@@ -1,3 +1,3 @@
-# summary
+# CV
 
-https://lenko-igor.github.io/summary/
+https://lenko-igor.github.io/cv/
