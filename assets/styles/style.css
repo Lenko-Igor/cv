@@ -1,0 +1,117 @@
+@import url('./basic.css');
+@import url('./header.css');
+
+.conteiner {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: var(--white);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.header-left_block {
+  flex-basis: 75%;
+}
+
+.header-fio {
+  font-size: 28px;
+}
+
+.header-title_job {
+  font-size: 18px;
+  color: var(--blue);
+}
+
+.header-contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-contacts_item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header-contacts_item-title {
+  color: var(--blue)
+}
+
+.header-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url('../images/igor.png') center no-repeat;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_block{
+  flex-basis: 38%;
+}
+.right_block {
+  flex-basis: 55%;
+}
+
+.left_block a:first-of-type {
+  text-decoration: none;
+}
+.left_block ul {
+  margin-left: 20px;
+}
+.left_block > ul > li + ul {
+  margin-left: 10px;
+  list-style-type: none;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.experience:not(:first-of-type) {
+  padding-top: 20px;
+}
+
+.experience .period {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.experience .company {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.experience .job_title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.experience .list {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.education:not(:last-of-type) {
+  padding-bottom: 20px;
+}
+
+.education .subject {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.education .period {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
