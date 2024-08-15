@@ -28,7 +28,15 @@
           </div>
         </div>
       </div>
-      <div class="header-image"></div>
+      <div class="header-image">
+        <img
+          v-bind:src="user.avatar.src"
+          v-bind:alt="user.avatar.alt"
+          v-bind:title="user.avatar.title"
+          width="100px"
+          height="100px"
+        >
+      </div>
     </header>
     <main class="main conteiner">
       <div class="left_block">
