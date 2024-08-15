@@ -30,7 +30,7 @@
       </div>
       <div class="header-image"></div>
     </header>
-    <main class="conteiner">
+    <main class="main conteiner">
       <div class="left_block">
         <h3 class="bg-grey">{{ titles.TECH_SKILLS }}:</h3>
         <div v-for="{ title, skills } in techSkills">
@@ -42,6 +42,10 @@
           </ul>
         </div>
   
+        <h3 class="bg-grey">{{ titles.LANGUAGES }}:</h3>
+        <p v-for="{ name, level } in languages">
+          {{ name }}: {{ level }}
+        </p>
       </div>
 
       <div class="right_block">
@@ -58,12 +62,14 @@
           } in experience"
           class="experience"
         >
-          <div class="period">
-            <i class="far fa-calendar-alt"></i>
-            <h4>{{ period }}</h4>
-          </div>
-          <p class="company">{{ company }}</p>
-          <p class="job_title">{{ jobTitle }}</p>
+        <h4 class="company">{{ company }}</h4>
+        <p class="job_title">{{ jobTitle }}</p>
+        <div class="period">
+          <i class="far fa-calendar-alt"></i>
+          <p>{{ period }}</p>
+        </div>
+
+
           <ul class="list">
             <li v-for="item in responsibilities" class="item">
               <span>{{ item }}</span>
@@ -83,11 +89,6 @@
             <p>{{ period }}</p>
           </div>
         </div>
-  
-        <h3 class="bg-grey">{{ titles.LANGUAGES }}:</h3>
-        <p v-for="{ name, level } in languages">
-          {{ name }}: {{ level }}
-        </p>
       </div>
     </main>
   </div>

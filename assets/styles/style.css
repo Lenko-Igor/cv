@@ -48,9 +48,10 @@
   background: url('../images/igor.png') center no-repeat;
 }
 
-main {
+.main {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 .left_block{
@@ -83,22 +84,18 @@ main {
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.experience .company {
-  font-size: 18px;
   font-weight: bold;
-  color: var(--blue);
 }
 
 .experience .job_title {
+  color: var(--blue);
   font-weight: bold;
-  font-size: 16px;
 }
 
 .experience .list {
   list-style-type: none;
   margin-left: 20px;
+  margin-top: 5px;
 }
 
 .education:not(:last-of-type) {
@@ -114,4 +111,5 @@ main {
   display: flex;
   align-items: center;
   gap: 10px;
+  font-weight: bold;
 }
