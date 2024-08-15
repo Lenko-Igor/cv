@@ -1,4 +1,3 @@
-import CommonInformation from "./components/CommonInformation.js";
 import { techSkills, selfPresentation, experience, languages, educations, commonInfo } from "./data.js";
 import { BLOCK_TITLES } from './constants/index.js'
 
@@ -19,8 +18,6 @@ const app = createApp({
 
   methods: {}
 });
-
-// app.component("common-information", CommonInformation);
 
 app.mount("#app");
 
