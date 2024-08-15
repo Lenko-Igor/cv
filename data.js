@@ -3,11 +3,9 @@ import { LEVEL } from "./constants/index.js"
 export const commonInfo = {
   fullName: 'Lenko Igor',
   avatar: {
-    src: './assets/images/Lenko.jpg',
+    src: './assets/images/igor.png',
     alt: 'Lenko',
     title: 'Lenko',
-    width: '143px',
-    height: '197px',
   },
   jobTitle: 'Front-end Developer',
   contacts: [
@@ -23,7 +21,7 @@ export const commonInfo = {
     },
     {
       title: 'LinkdIn:',
-      value: 'мой профиль в linkedin.com',
+      value: 'www.linkedin.com/in/igor-lenko-4315903b',
       href: 'https://www.linkedin.com/in/igor-lenko-4315903b',
       target: '_blank',
     }
