@@ -1,6 +1,7 @@
 export const LEVEL = {
   BASIC: 'Basic',
-  PRE_INTERMEDIATE: 'Pre-Intermediate',
+  PRE_INTERMEDIATE: 'Pre-Intermediate (A2)',
+  INTERMEDIATE: 'Intermediate (B1)',
   ADVANCED: 'Advanced',
   EXPERT: 'Expert',
   NATIVE: 'Native',

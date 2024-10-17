@@ -127,7 +127,7 @@ export const experience = [
 ]
 
 export const languages = [
-  { name: 'English', level: LEVEL.PRE_INTERMEDIATE },
+  { name: 'English', level: LEVEL.INTERMEDIATE },
   { name: 'Russian', level: LEVEL.NATIVE },
 ]
 
