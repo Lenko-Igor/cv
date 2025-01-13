@@ -74,7 +74,7 @@ export const USER = {
         SELF_PRESENTATION: `I'm Frontend developer with experience in design and development of frontend applications using React.
                             Also have experience in onboarding and teaching new coworkers on projects.
                             I've worked as with big teams such  with small on different projects and today I have a good background with projects from different domains.
-                            There are like economic, social, medical, sports and etc. 
+                            There are like economic, social, medical, sports. 
                             Always open to new challenging tasks which require fast learning and finding the most efficient solution.
                             `
     },
@@ -82,7 +82,7 @@ export const USER = {
         FIRST_NAME: 'Игорь',
         LAST_NAME: 'Ленько',
         SELF_PRESENTATION: `Я React фронтенд разработчик с опытом проектирования фронтенд-приложений.
-                            Работал над проектами из разных сфер деятельности такие как, экономика, социальная сфера, медицина, спорт и т. д.
+                            Работал над проектами из разных сфер деятельности такие как, экономика, социальная сфера, медицина, спорт.
                             Есть опыт в адаптации и обучении новых коллег на проектах.
                             Всегда открыт для новых сложных задач, требующих быстрого обучения и поиска наиболее эффективного решения.
                             `  
@@ -102,7 +102,17 @@ export const EXPERIENCES = {
                 'Communicate with customers',
                 'Communicate with team',
                 'Onboard new developers on projects',
-                'etc.'
+            ],
+            achievementTitle: 'Achievements',
+            achievements: [
+                `- In a web application for digitizing fire safety documentation,
+                implemented functionality for placing equipment icons on design drawings
+                of buildings using Drag and drop - as a result, gratitude from the customer and positive
+                feedback from users`,
+                `- Medical application - implemented online chat using web sockets and this contributed 
+                to the successful presentation of the application from the customer to the investor`,
+                `- Application for holding dav competitions - reasonably proposed and implemented
+into the work   of mock-data when working with the backend. Result: development time was reduced by 30%`,
             ],
         },
         FREELANCER: {
@@ -113,7 +123,8 @@ export const EXPERIENCES = {
                 'Fix bugs',
                 'Develop landing pages',
                 'Create some extensions',
-            ]
+            ],
+            achievements: [],
         },
     },
     [LANGUAGE.RU]: {
@@ -121,25 +132,36 @@ export const EXPERIENCES = {
             period: 'Август 2021 - по настоящее время',
             jobTitle: 'Frontend разработчик',
             responsibilities: [
-                'Разработка и запуск некоторых проектов',
-                'Обзор кода',
-                'Оценка некоторых задач',
-                'Выбор технологий для проектов',
-                'Общение с заказчиками',
-                'Общение с командой',
-                'Приветствие новых разработчиков на проектах',
-                'и т. д.'
+                'Разработка web-приложений',
+                'Ревью кода',
+                'Оценка задач',
+                'Построение архитектуры проекта и подбор требуемых технологий',
+                'Комуникация с заказчиками',
+                'Работа в команде',
+                'Обучение и поддержка молодых разработчиков для проекта',
+            ],
+            achievementTitle: 'Достижения',
+            achievements: [
+                `- В web-приложении для оцифровки документации по противопожарной безопасности, 
+                реализовал функцинал по растановке иконок оборудования на проектных чертежах 
+                зданий по средствам Drag and drop. Результат: благодарность от заказчика и положительный 
+                отзыв от пользователей`,
+                `- Медицинское приложение - внедрил онлайн чат с использованием web-сокетов и это 
+                поспособствовало успешной презентации приложения от заказчика инвестору`,
+                `- Приложение для проведения соревнований по давингу - обоснованно предложил и внедрил 
+                в работу mock-data при работе с бэкендом. Результат: сократилось время разработки на 30%`,
             ],
         },
         FREELANCER: {
             period: 'Январь 2020 - Август 2021',
             jobTitle: 'Frontend разработчик (HTML, CSS, JavaScript)',
             responsibilities: [
-                'Поддержка некоторых проектов',
+                'Разработка web-приложений',
                 'Исправление багов',
                 'Разработка лендингов',
-                'Создание расширений',    
+                'Разработка расширений',    
             ],
+            achievements: [],
         },
     }
 }

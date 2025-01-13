@@ -65,7 +65,7 @@
 
       <div class="right_block">
         <h3 class="bg-grey">{{ titles.ABOUT_MYSELF }}:</h3>
-        <p>{{ selfPresentation }}</p>
+        <p class="selfPresentation_text">{{ selfPresentation }}</p>
   
         <h3 class="bg-grey">{{ titles.EXPERIENCE }}:</h3>
         <div
@@ -74,6 +74,8 @@
             company,
             jobTitle,
             responsibilities,
+            achievementTitle,
+            achievements,
           } in experience"
           class="experience"
         >
@@ -87,6 +89,12 @@
 
           <ul class="list">
             <li v-for="item in responsibilities" class="item">
+              <span>{{ item }}</span>
+            </li>
+          </ul>
+          <p class="achivment_title">{{ achievementTitle }}</p>
+          <ul class="list">
+            <li v-for="item in achievements" class="item">
               <span>{{ item }}</span>
             </li>
           </ul>
