@@ -1,5 +1,5 @@
 import { techSkills, selfPresentation, experience, languages, educations, commonInfo } from "./data.js";
-import { BLOCK_TITLES } from './constants/index.js'
+import { BLOCK_TITLES, LANGUAGE } from './constants/index.js'
 
 const { createApp, ref } = Vue;
 
@@ -8,6 +8,7 @@ let language = 'en';
 const app = createApp({
   data() {
     return {
+      lgBtnTitle: language === LANGUAGE.EN ? 'RU' : 'EN',
       titles: ref(BLOCK_TITLES[language]),
       user: ref(commonInfo(language)),
       techSkills: ref(techSkills(language)),
@@ -20,8 +21,9 @@ const app = createApp({
 
   methods: {
     selectLanguage() {
-        language = language === 'ru' ? 'en' : 'ru';
+        language = language === LANGUAGE.RU ? LANGUAGE.EN : LANGUAGE.RU;
 
+        this.lgBtnTitle = language === LANGUAGE.EN ? 'RU' : 'EN';
         this.user = commonInfo(language);
         this.titles = BLOCK_TITLES[language];
         this.techSkills = techSkills(language);
