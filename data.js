@@ -97,6 +97,8 @@ export const experience = (lg) => ([
     period: EXPERIENCES[lg].SOFTTECO.period,
     jobTitle: EXPERIENCES[lg].SOFTTECO.jobTitle,
     responsibilities: EXPERIENCES[lg].SOFTTECO.responsibilities,
+    achievementTitle: EXPERIENCES[lg].SOFTTECO.achievementTitle,
+    achievements: EXPERIENCES[lg].SOFTTECO.achievements,
   },
   {
     company: 'Freelancer',

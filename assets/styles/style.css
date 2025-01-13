@@ -86,6 +86,9 @@
   align-items: center;
   justify-content: space-between;
 }
+.selfPresentation_text {
+  text-align: justify;
+}
 .experience:not(:first-of-type) {
   padding-top: 20px;
 }
@@ -97,15 +100,21 @@
   font-weight: bold;
 }
 
-.experience .job_title {
+.experience .job_title
+ {
   color: var(--blue);
   font-weight: bold;
+}
+
+.experience .achivment_title {
+    font-weight: bold;
 }
 
 .experience .list {
   list-style-type: none;
   margin-left: 20px;
   margin-top: 5px;
+  text-align: justify;
 }
 
 .education:not(:last-of-type) {
