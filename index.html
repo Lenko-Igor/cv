@@ -10,33 +10,40 @@
   <title>Summary_Igor_Lenko</title>
   <link rel="stylesheet" href="./assets/styles/style.css">
   <link rel="stylesheet" href="./assets/styles/media.css">
+
 </head>
 
 <body>
   <div id="app">
-    <header class="header conteiner">
-      <div class="header-left_block">
-        <h1 class="header-fio">{{ user.fullName }}</h1>
-        <h2 class="header-title_job">{{ user.jobTitle }}</h2>
-        <div class="header-contacts">
-          <div 
-            v-for="{ title, href, value, target=undefined } in user.contacts"
-            class="header-contacts_item"
-          >
-            <p class="header-contacts_item-title">{{ title }}</p>
-            <a v-bind:href="href" v-bind:target="target">{{ value }}</a>
-          </div>
+    <header class="conteiner">
+        <div class="header">
+            <div class="header-left_block">
+              <h1 class="header-fio">{{ user.fullName }}</h1>
+              <h2 class="header-title_job">{{ user.jobTitle }}</h2>
+              <div class="header-contacts">
+                <div 
+                  v-for="{ title, href, value, target=undefined } in user.contacts"
+                  class="header-contacts_item"
+                >
+                  <p class="header-contacts_item-title">{{ title }}</p>
+                  <a v-bind:href="href" v-bind:target="target">{{ value }}</a>
+                </div>
+              </div>
+            </div>
+            <div class="header-image">
+              <img
+                v-bind:src="user.avatar.src"
+                v-bind:alt="user.avatar.alt"
+                v-bind:title="user.avatar.title"
+                width="100px"
+                height="100px"
+              >
+            </div>
+
         </div>
-      </div>
-      <div class="header-image">
-        <img
-          v-bind:src="user.avatar.src"
-          v-bind:alt="user.avatar.alt"
-          v-bind:title="user.avatar.title"
-          width="100px"
-          height="100px"
-        >
-      </div>
+        <div class="header-btn">
+            <button id="btn">{{ lgBtnTitle }}</button>
+        </div>
     </header>
     <main class="main conteiner">
       <div class="left_block">

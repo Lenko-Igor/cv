@@ -13,8 +13,18 @@
   padding-top: 20px;
 }
 
+#btn {
+    width: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--blue);
+    font-weight: bold;
+    border: none;
+}
+
 .header-left_block {
-  flex-basis: 80%;
+  flex-basis: 85%;
 }
 
 .header-fio {
