@@ -1,17 +1,13 @@
 @import url('./basic.css');
 @import url('./header.css');
 
-.conteiner {
+.container {
   width: 800px;
   margin: 0 auto;
   padding: 0 20px;
   background-color: var(--white);
 }
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 20px;
-}
+
 
 #btn {
     width: 40px;
@@ -21,41 +17,6 @@
     background-color: var(--blue);
     font-weight: bold;
     border: none;
-}
-
-.header-left_block {
-  flex-basis: 85%;
-}
-
-.header-fio {
-  font-size: 28px;
-}
-
-.header-title_job {
-  font-size: 18px;
-  color: var(--blue);
-}
-
-.header-contacts {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header-contacts_item {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.header-contacts_item-title {
-  color: var(--blue)
-}
-
-.header-image {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
 }
 
 .main {

@@ -45,7 +45,8 @@ export const TITLES = {
     [LANGUAGE.EN]: {
         PHONE: 'Phone',
         EMAIL: 'E-mail',
-        LINKDIN: 'LinkdIn',
+        LINKEDIN: 'LinkedIn',
+        TELEGRAM: 'Telegram',
         PROGRAMMING_LANGUAGES: 'Programming languages:',
         DEV_TECHNOLOGIES: 'Development technologies',
         DATABASES: 'Databases',
@@ -57,7 +58,8 @@ export const TITLES = {
     [LANGUAGE.RU]: {
         PHONE: 'Телефон',
         EMAIL: 'Эл.почта',
-        LINKDIN: 'LinkdIn',
+        LINKEDIN: 'LinkedIn',
+        TELEGRAM: 'Telegram',
         PROGRAMMING_LANGUAGES: 'Языки программирования:',
         DEV_TECHNOLOGIES: 'Технологии разработки',
         DATABASES: 'Базы данных',

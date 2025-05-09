@@ -20,9 +20,15 @@ export const commonInfo = (lg) => ({
       href: 'mailto:lenkomk20085@gmail.com',
     },
     {
-      title: `${TITLES[lg].LINKDIN}:`,
-      value: 'www.linkedin.com/in/igor-lenko-4315903b',
+      title: `${TITLES[lg].LINKEDIN}:`,
+      value: 'igor-lenko-4315903b',
       href: 'https://www.linkedin.com/in/igor-lenko-4315903b',
+      target: '_blank',
+    },
+    {
+      title: `${TITLES[lg].TELEGRAM}:`,
+      value: '@IgorL81',
+      href: 'https://web.telegram.org',
       target: '_blank',
     }
   ],
