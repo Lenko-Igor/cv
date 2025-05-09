@@ -1,0 +1,42 @@
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+
+  .header-left_block {
+    flex-basis: 85%;
+  }
+  
+  .header-fio {
+    font-size: 28px;
+  }
+  
+  .header-title_job {
+    font-size: 18px;
+    color: var(--blue);
+  }
+  
+  .header-contacts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .header-contacts_item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 250px;
+  }
+  
+  .header-contacts_item-title {
+    color: var(--blue)
+  }
+  
+  .header-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+  }

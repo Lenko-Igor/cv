@@ -1,5 +1,5 @@
 @media all and (max-width:820px){
-  .conteiner {
+  .container {
     width: 600px;
   }
   .header-contacts {
@@ -13,7 +13,7 @@
   }
 }  
 @media all and (max-width:620px){
-  .conteiner {
+  .container {
     width: 500px;
   }
   .left_block, .right_block {
@@ -21,7 +21,7 @@
   } 
 }  
 @media all and (max-width:520px){
-  .conteiner {
+  .container {
     width: 320px;
     padding: 5px 15px;
   }
