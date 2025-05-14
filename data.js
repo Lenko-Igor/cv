@@ -99,6 +99,14 @@ export const selfPresentation = (lg) => USER[lg].SELF_PRESENTATION
 
 export const experience = (lg) => ([
   {
+    company: 'UNiDEV',
+    period: EXPERIENCES[lg].UNiDEV.period,
+    jobTitle: EXPERIENCES[lg].UNiDEV.jobTitle,
+    responsibilities: EXPERIENCES[lg].UNiDEV.responsibilities,
+    achievementTitle: EXPERIENCES[lg].UNiDEV.achievementTitle,
+    achievements: EXPERIENCES[lg].UNiDEV.achievements,
+  },
+  {
     company: 'Softteco',
     period: EXPERIENCES[lg].SOFTTECO.period,
     jobTitle: EXPERIENCES[lg].SOFTTECO.jobTitle,

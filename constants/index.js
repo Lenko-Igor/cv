@@ -97,24 +97,17 @@ export const EXPERIENCES = {
             period: 'February 2025 - till now',
             jobTitle: 'Frontend Developer (React.js)',
             responsibilities: [
-                'Develop and launch some projects',
-                'Code-review',
-                'Estimate some tasks',
-                'Selection of technologies for projects',
-                'Communicate with customers',
-                'Communicate with team',
-                'Onboard new developers on projects',
+                'Development of a web application for personnel management',
+                'Participation in sprint planning',
+                'Decomposition and assessment of tasks',
+                'Development of application modules',
+                'Teamwork',
             ],
             achievementTitle: 'Achievements',
             achievements: [
-                `- In a web application for digitizing fire safety documentation,
-                implemented functionality for placing equipment icons on design drawings
-                of buildings using Drag and drop - as a result, gratitude from the customer and positive
-                feedback from users`,
-                `- Medical application - implemented online chat using web sockets and this contributed 
-                to the successful presentation of the application from the customer to the investor`,
-                `- Application for holding dav competitions - reasonably proposed and implemented
-into the work   of mock-data when working with the backend. Result: development time was reduced by 30%`,
+                `- Within a week I understood the technical nuances of the project and started developing it.`,
+                `- Took responsibility for developing part of the application. Result: two-week sprints.`,
+                `- Insisted on decomposition and joint discussion of large tasks. Result: the number of bugs decreased by 50%`,
             ],
         },
         SOFTTECO: {
@@ -158,24 +151,17 @@ into the work   of mock-data when working with the backend. Result: development 
             period: 'Февраль 2025 - по настоящее время',
             jobTitle: 'Frontend разработчик (React.js)',
             responsibilities: [
-                'Разработка web-приложений',
-                'Ревью кода',
-                'Оценка задач',
-                'Построение архитектуры проекта и подбор требуемых технологий',
-                'Комуникация с заказчиками',
+                'Разработка web-приложения для управления персоналом',
+                'Участие в sprint planning',
+                'Декомпозиция и оценка задач',
+                'Разработка модулей приложения',
                 'Работа в команде',
-                'Обучение и поддержка молодых разработчиков для проекта',
             ],
             achievementTitle: 'Достижения',
             achievements: [
-                `- В web-приложении для оцифровки документации по противопожарной безопасности, 
-                реализовал функцинал по растановке иконок оборудования на проектных чертежах 
-                зданий по средствам Drag and drop. Результат: благодарность от заказчика и положительный 
-                отзыв от пользователей`,
-                `- Медицинское приложение - внедрил онлайн чат с использованием web-сокетов и это 
-                поспособствовало успешной презентации приложения от заказчика инвестору`,
-                `- Приложение для проведения соревнований по давингу - обоснованно предложил и внедрил 
-                в работу mock-data при работе с бэкендом. Результат: сократилось время разработки на 30%`,
+                `- В недельный срок вникнул в технические нюансы проекта и приступил к полноценной разработке`,
+                `- Взял на себя ответственность за разработку части приложения. Результат: двух недельные спринты`,
+                `- Настоял на декомпозиции и совместных обсуждения больших по объему задач. Результат: количество багов сократилось на 50%`,
             ],
         },
         SOFTTECO: {
