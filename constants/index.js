@@ -93,8 +93,25 @@ export const USER = {
 
 export const EXPERIENCES = {
     [LANGUAGE.EN]: {
+        UNiDEV: {
+            period: 'February 2025 - till now',
+            jobTitle: 'Frontend Developer (React.js)',
+            responsibilities: [
+                'Development of a web application for personnel management',
+                'Participation in sprint planning',
+                'Decomposition and assessment of tasks',
+                'Development of application modules',
+                'Teamwork',
+            ],
+            achievementTitle: 'Achievements',
+            achievements: [
+                `- Within a week I understood the technical nuances of the project and started developing it.`,
+                `- Took responsibility for developing part of the application. Result: two-week sprints.`,
+                `- Insisted on decomposition and joint discussion of large tasks. Result: the number of bugs decreased by 50%`,
+            ],
+        },
         SOFTTECO: {
-            period: 'August 2021 - till now',
+            period: 'August 2021 - February 2025',
             jobTitle: 'Frontend Developer',
             responsibilities: [
                 'Develop and launch some projects',
@@ -130,8 +147,25 @@ into the work   of mock-data when working with the backend. Result: development 
         },
     },
     [LANGUAGE.RU]: {
+        UNiDEV: {
+            period: 'Февраль 2025 - по настоящее время',
+            jobTitle: 'Frontend разработчик (React.js)',
+            responsibilities: [
+                'Разработка web-приложения для управления персоналом',
+                'Участие в sprint planning',
+                'Декомпозиция и оценка задач',
+                'Разработка модулей приложения',
+                'Работа в команде',
+            ],
+            achievementTitle: 'Достижения',
+            achievements: [
+                `- В недельный срок вникнул в технические нюансы проекта и приступил к полноценной разработке`,
+                `- Взял на себя ответственность за разработку части приложения. Результат: двух недельные спринты`,
+                `- Настоял на декомпозиции и совместных обсуждения больших по объему задач. Результат: количество багов сократилось на 50%`,
+            ],
+        },
         SOFTTECO: {
-            period: 'Август 2021 - по настоящее время',
+            period: 'Август 2021 - Февраль 2025',
             jobTitle: 'Frontend разработчик',
             responsibilities: [
                 'Разработка web-приложений',
