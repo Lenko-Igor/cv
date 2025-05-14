@@ -93,8 +93,32 @@ export const USER = {
 
 export const EXPERIENCES = {
     [LANGUAGE.EN]: {
+        UNiDEV: {
+            period: 'February 2025 - till now',
+            jobTitle: 'Frontend Developer (React.js)',
+            responsibilities: [
+                'Develop and launch some projects',
+                'Code-review',
+                'Estimate some tasks',
+                'Selection of technologies for projects',
+                'Communicate with customers',
+                'Communicate with team',
+                'Onboard new developers on projects',
+            ],
+            achievementTitle: 'Achievements',
+            achievements: [
+                `- In a web application for digitizing fire safety documentation,
+                implemented functionality for placing equipment icons on design drawings
+                of buildings using Drag and drop - as a result, gratitude from the customer and positive
+                feedback from users`,
+                `- Medical application - implemented online chat using web sockets and this contributed 
+                to the successful presentation of the application from the customer to the investor`,
+                `- Application for holding dav competitions - reasonably proposed and implemented
+into the work   of mock-data when working with the backend. Result: development time was reduced by 30%`,
+            ],
+        },
         SOFTTECO: {
-            period: 'August 2021 - till now',
+            period: 'August 2021 - February 2025',
             jobTitle: 'Frontend Developer',
             responsibilities: [
                 'Develop and launch some projects',
@@ -130,8 +154,32 @@ into the work   of mock-data when working with the backend. Result: development 
         },
     },
     [LANGUAGE.RU]: {
+        UNiDEV: {
+            period: 'Февраль 2025 - по настоящее время',
+            jobTitle: 'Frontend разработчик (React.js)',
+            responsibilities: [
+                'Разработка web-приложений',
+                'Ревью кода',
+                'Оценка задач',
+                'Построение архитектуры проекта и подбор требуемых технологий',
+                'Комуникация с заказчиками',
+                'Работа в команде',
+                'Обучение и поддержка молодых разработчиков для проекта',
+            ],
+            achievementTitle: 'Достижения',
+            achievements: [
+                `- В web-приложении для оцифровки документации по противопожарной безопасности, 
+                реализовал функцинал по растановке иконок оборудования на проектных чертежах 
+                зданий по средствам Drag and drop. Результат: благодарность от заказчика и положительный 
+                отзыв от пользователей`,
+                `- Медицинское приложение - внедрил онлайн чат с использованием web-сокетов и это 
+                поспособствовало успешной презентации приложения от заказчика инвестору`,
+                `- Приложение для проведения соревнований по давингу - обоснованно предложил и внедрил 
+                в работу mock-data при работе с бэкендом. Результат: сократилось время разработки на 30%`,
+            ],
+        },
         SOFTTECO: {
-            period: 'Август 2021 - по настоящее время',
+            period: 'Август 2021 - Февраль 2025',
             jobTitle: 'Frontend разработчик',
             responsibilities: [
                 'Разработка web-приложений',
