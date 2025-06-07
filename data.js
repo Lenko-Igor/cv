@@ -41,13 +41,14 @@ export const techSkills = (lg) => ([
       { name: 'JavaScript (ES6)', level: LEVEL[lg].ADVANCED },
       { name: 'TypeScript', level: LEVEL[lg].ADVANCED },
       { name: 'HTML/CSS', level: LEVEL[lg].ADVANCED },
-      { name: 'SASS', level: LEVEL[lg].ADVANCED },
+      { name: 'SASS/SCCS', level: LEVEL[lg].ADVANCED },
     ]
   },
   {
     title: TITLES[lg].DEV_TECHNOLOGIES,
     skills: [
       { name: 'React.js', level: LEVEL[lg].ADVANCED },
+      { name: 'React Native', level: LEVEL[lg].BASIC },
       { name: 'Vue.js', level: LEVEL[lg].BASIC },
       { name: 'Node.js', level: LEVEL[lg].BASIC },
       { name: 'Express.js', level: LEVEL[lg].BASIC },
@@ -55,12 +56,12 @@ export const techSkills = (lg) => ([
       { name: 'RestAPI', level: LEVEL[lg].ADVANCED },
       { name: 'JSON', level: LEVEL[lg].ADVANCED },
       { name: 'AJAX', level: LEVEL[lg].ADVANCED },
-      { name: 'Redux', level: LEVEL[lg].ADVANCED },
+      { name: 'MobX', level: LEVEL[lg].ADVANCED },
       { name: 'Redux toolkit', level: LEVEL[lg].ADVANCED },
       { name: 'Zustand', level: LEVEL[lg].BASIC },
       { name: 'MUI', level: LEVEL[lg].ADVANCED },
+      { name: 'Ant Design', level: LEVEL[lg].ADVANCED },
       { name: 'Bootstrap', level: LEVEL[lg].ADVANCED },
-      { name: 'Ant Design', level: LEVEL[lg].BASIC },
     ]
   },
   {
@@ -75,6 +76,7 @@ export const techSkills = (lg) => ([
       { name: 'Visual Studio Code', level: LEVEL[lg].ADVANCED },
       { name: 'npm', level: LEVEL[lg].ADVANCED },
       { name: 'Webpack', level: LEVEL[lg].BASIC },
+      { name: 'Vite', level: LEVEL[lg].BASIC },
     ]
   },
   {
