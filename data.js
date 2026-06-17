@@ -7,7 +7,7 @@ export const commonInfo = (lg) => ({
     alt: USER[lg].LAST_NAME,
     title: USER[lg].LAST_NAME,
   },
-  jobTitle: 'Front-end Developer',
+  jobTitle: 'Software Engineer (React.js, Next.js, Nest.js)',
   contacts: [
     {
       title: `${TITLES[lg].PHONE}:`,
@@ -102,6 +102,14 @@ export const techSkills = (lg) => ([
 export const selfPresentation = (lg) => USER[lg].SELF_PRESENTATION
 
 export const experience = (lg) => ([
+  {
+    company: 'FlexiTech',
+    period: EXPERIENCES[lg].FLEXI_TECH.period,
+    jobTitle: EXPERIENCES[lg].FLEXI_TECH.jobTitle,
+    responsibilities: EXPERIENCES[lg].FLEXI_TECH.responsibilities,
+    achievementTitle: EXPERIENCES[lg].FLEXI_TECH.achievementTitle,
+    achievements: EXPERIENCES[lg].FLEXI_TECH.achievements,
+  },
   {
     company: 'UNiDEV',
     period: EXPERIENCES[lg].UNiDEV.period,

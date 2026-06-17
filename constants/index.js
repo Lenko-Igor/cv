@@ -93,8 +93,21 @@ export const USER = {
 
 export const EXPERIENCES = {
     [LANGUAGE.EN]: {
+        FLEXI_TECH: {
+            period: 'September 2025 - till now',
+            jobTitle: 'Software engineer (Next.js, Nest.js, Apollo)',
+            responsibilities: [
+                'Development of a web application for personnel management',
+                'Participation in sprint planning',
+                'Decomposition and assessment of tasks',
+                'Development of application modules',
+                'Teamwork',
+            ],
+            achievementTitle: 'Achievements',
+            achievements: ['NDA'],
+        },
         UNiDEV: {
-            period: 'February 2025 - till now',
+            period: 'February 2025 - January 2026',
             jobTitle: 'Frontend Developer (React.js)',
             responsibilities: [
                 'Development of a web application for personnel management',
@@ -147,8 +160,21 @@ into the work   of mock-data when working with the backend. Result: development 
         },
     },
     [LANGUAGE.RU]: {
+        FLEXI_TECH: {
+            period: 'Сентябрь 2025 - по настоящее время',
+            jobTitle: 'Software engineer (Next.js, Nest.js, Apollo)',
+            responsibilities: [
+                'Разработка web-приложения',
+                'Участие в sprint planning',
+                'Декомпозиция и оценка задач',
+                'Разработка модулей приложения',
+                'Работа в команде',
+            ],
+            achievementTitle: 'Достижения',
+            achievements: ['NDA'],
+        },
         UNiDEV: {
-            period: 'Февраль 2025 - по настоящее время',
+            period: 'Февраль 2025 - Январь 2026',
             jobTitle: 'Frontend разработчик (React.js)',
             responsibilities: [
                 'Разработка web-приложения для управления персоналом',
