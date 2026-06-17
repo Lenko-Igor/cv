@@ -7,7 +7,7 @@ export const commonInfo = (lg) => ({
     alt: USER[lg].LAST_NAME,
     title: USER[lg].LAST_NAME,
   },
-  jobTitle: 'Front-end Developer',
+  jobTitle: 'Software Engineer (React.js, Next.js, Nest.js)',
   contacts: [
     {
       title: `${TITLES[lg].PHONE}:`,
@@ -48,6 +48,7 @@ export const techSkills = (lg) => ([
     title: TITLES[lg].DEV_TECHNOLOGIES,
     skills: [
       { name: 'React.js', level: LEVEL[lg].ADVANCED },
+      { name: 'Next.js', level: LEVEL[lg].ADVANCED },
       { name: 'React Native', level: LEVEL[lg].BASIC },
       { name: 'Vue.js', level: LEVEL[lg].BASIC },
       { name: 'Node.js', level: LEVEL[lg].BASIC },
@@ -59,6 +60,7 @@ export const techSkills = (lg) => ([
       { name: 'MobX', level: LEVEL[lg].ADVANCED },
       { name: 'Redux toolkit', level: LEVEL[lg].ADVANCED },
       { name: 'Zustand', level: LEVEL[lg].BASIC },
+      { name: 'Apollo', level: LEVEL[lg].BASIC },
       { name: 'MUI', level: LEVEL[lg].ADVANCED },
       { name: 'Ant Design', level: LEVEL[lg].ADVANCED },
       { name: 'Bootstrap', level: LEVEL[lg].ADVANCED },
@@ -100,6 +102,14 @@ export const techSkills = (lg) => ([
 export const selfPresentation = (lg) => USER[lg].SELF_PRESENTATION
 
 export const experience = (lg) => ([
+  {
+    company: 'FlexiTech',
+    period: EXPERIENCES[lg].FLEXI_TECH.period,
+    jobTitle: EXPERIENCES[lg].FLEXI_TECH.jobTitle,
+    responsibilities: EXPERIENCES[lg].FLEXI_TECH.responsibilities,
+    achievementTitle: EXPERIENCES[lg].FLEXI_TECH.achievementTitle,
+    achievements: EXPERIENCES[lg].FLEXI_TECH.achievements,
+  },
   {
     company: 'UNiDEV',
     period: EXPERIENCES[lg].UNiDEV.period,
