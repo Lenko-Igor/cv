@@ -48,6 +48,7 @@ export const techSkills = (lg) => ([
     title: TITLES[lg].DEV_TECHNOLOGIES,
     skills: [
       { name: 'React.js', level: LEVEL[lg].ADVANCED },
+      { name: 'Next.js', level: LEVEL[lg].ADVANCED },
       { name: 'React Native', level: LEVEL[lg].BASIC },
       { name: 'Vue.js', level: LEVEL[lg].BASIC },
       { name: 'Node.js', level: LEVEL[lg].BASIC },
@@ -59,6 +60,7 @@ export const techSkills = (lg) => ([
       { name: 'MobX', level: LEVEL[lg].ADVANCED },
       { name: 'Redux toolkit', level: LEVEL[lg].ADVANCED },
       { name: 'Zustand', level: LEVEL[lg].BASIC },
+      { name: 'Apollo', level: LEVEL[lg].BASIC },
       { name: 'MUI', level: LEVEL[lg].ADVANCED },
       { name: 'Ant Design', level: LEVEL[lg].ADVANCED },
       { name: 'Bootstrap', level: LEVEL[lg].ADVANCED },
